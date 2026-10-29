@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f3f4f6; color: #222; }
+a { color: #1d4ed8; }
+button, .btn { background: #1d4ed8; color: #fff; border: 0; padding: 8px 14px; border-radius: 4px; cursor: pointer; text-decoration: none; font-size: 14px; }
+button:disabled { opacity: 0.5; cursor: default; }
+input, select, textarea { padding: 8px; border: 1px solid #bbb; border-radius: 4px; font: inherit; width: 100%; }
+.header { display: flex; align-items: center; gap: 24px; background: #fff; padding: 12px 24px; border-bottom: 1px solid #ddd; }
+.header nav { display: flex; gap: 16px; flex: 1; }
+.header nav a.active { font-weight: bold; }
+.logo { font-weight: bold; text-decoration: none; }
+.who { display: flex; gap: 10px; align-items: center; }
+.main { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+.public { max-width: 380px; margin: 60px auto; padding: 0 16px; }
+.card { background: #fff; padding: 16px; border-radius: 6px; border: 1px solid #ddd; margin-bottom: 16px; }
+.form { display: flex; flex-direction: column; gap: 12px; }
+.form label, .card label { display: flex; flex-direction: column; gap: 4px; font-size: 14px; }
+.err { color: #b91c1c; font-size: 12px; }
+.err-box { background: #fee2e2; padding: 12px; border-radius: 4px; }
+.row { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; }
+.row h2 { flex: 1; margin: 0; }
+.row select { width: 200px; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #eee; }
+.comment { background: #fff; border-left: 3px solid #1d4ed8; padding: 6px 12px; margin-bottom: 8px; }
+.center { text-align: center; margin-top: 60px; }
+.toasts { position: fixed; right: 16px; top: 16px; display: flex; flex-direction: column; gap: 8px; z-index: 10; }
+.toast { padding: 10px 16px; border-radius: 4px; color: #fff; }
+.toast.success { background: #15803d; }
+.toast.error { background: #b91c1c; }
